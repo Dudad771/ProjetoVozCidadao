@@ -166,8 +166,6 @@ As funcionalidades abaixo estão **previstas** e sujeitas à validação da equi
 
 ## 6. Fluxo de Funcionamento
 
-> **Proposta conceitual.** O fluxograma abaixo representa o funcionamento pretendido e ainda não está implementado.
-
 ```mermaid
 flowchart TD
     A([Acesso à plataforma]) --> B[Apresentação da interface]
