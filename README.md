@@ -1,4 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/34346820/README.1.md)
 <div align="center">
 
 # VozCidadão
@@ -25,7 +24,6 @@ Professor responsável: Breno Holanda
 
 # Português
 
-**Situação atual:** projeto acadêmico em desenvolvimento. O andamento detalhado de cada etapa está na seção [Cronograma](#18-cronograma) e deve ser mantido atualizado pela equipe.
 
 ## Sumário
 
@@ -60,7 +58,6 @@ Professor responsável: Breno Holanda
 - [21. Contribuição](#21-contribuição)
 - [22. Licença e Créditos](#22-licença-e-créditos)
 
-> **Convenção deste documento:** itens entre colchetes, como `[PREENCHER]` ou `[ATUALIZAR]`, indicam informações que dependem da equipe. Nada neste README deve ser lido como funcionalidade implementada ou decisão técnica tomada, a menos que esteja explicitamente indicado como tal.
 
 ---
 
@@ -159,8 +156,8 @@ As funcionalidades abaixo estão **previstas** e sujeitas à validação da equi
 
 **Resumo por situação**
 
-- **Implementadas:** nenhuma registrada. `[ATUALIZAR]`
-- **Em desenvolvimento:** `[ATUALIZAR]`
+- **Implementadas:** nenhuma registrada. 
+- **Em desenvolvimento:** 
 - **Planejadas:** todas as funcionalidades da tabela.
 
 [↑ Voltar ao início](#vozcidadão)
@@ -281,7 +278,6 @@ flowchart LR
 - Consulta.
 - Gerenciamento das informações.
 
-> A comunicação entre front-end e back-end por API REST é uma proposta arquitetural pendente de confirmação. O diagrama não prevê serviços externos ou integrações além das tecnologias já listadas.
 
 [↑ Voltar ao início](#vozcidadão)
 
@@ -307,8 +303,6 @@ O reconhecimento automático de fala (ASR, do inglês *Automatic Speech Recognit
 
 ## 10. Estrutura do Repositório
 
-> Estrutura de referência. A equipe deve conferi-la com o repositório real e ajustar o que não existir.
-
 ```
 ProjetoVozCidadao/
 ├── backend/
@@ -325,7 +319,7 @@ ProjetoVozCidadao/
 | Caminho | Finalidade |
 |---|---|
 | `backend/` | Código do back-end em Python. |
-| `frontend/` | Código do front-end (HTML5, CSS3 e JavaScript). |
+| `frontend/` | Código do front-end HTML5, CSS3 e JavaScript. |
 | `banco_de_dados/modelagem/` | Arquivos de modelagem do banco. |
 | `banco_de_dados/ddl.sql` | Script de criação das estruturas do banco. |
 | `banco_de_dados/dml.sql` | Script de inserção de dados. |
@@ -341,9 +335,8 @@ ProjetoVozCidadao/
 
 ### 11.1 Modelagem Lógica e DER
 
-`[PREENCHER: descrição da modelagem lógica]`
 
-Diagrama entidade-relacionamento: `[PREENCHER: adicionar o arquivo docs/images/der.png]`
+Diagrama entidade-relacionamento: 
 
 <!-- Após adicionar o arquivo, remova este comentário e o texto acima:
 ![Diagrama Entidade-Relacionamento](docs/images/der.png)
@@ -357,7 +350,7 @@ Esta seção só deve listar tabelas que existam no modelo aprovado pela equipe.
 |---|---|---|---|
 | `[PREENCHER]` | `[PREENCHER]` | `[PREENCHER]` | `[PREENCHER]` |
 
-**Atributos por entidade:** `[PREENCHER]`
+**Atributos por entidade:** `aguardando`
 
 **Relacionamentos:** `[PREENCHER: entidades, cardinalidades e chaves estrangeiras]`
 
