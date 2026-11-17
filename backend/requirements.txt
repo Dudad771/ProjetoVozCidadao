@@ -1,0 +1,7 @@
+Flask>=2.2
+flask-cors
+mysql-connector-python
+# Fuso horário de Recife no Windows (sem isso o código usa a hora da máquina)
+tzdata; sys_platform == "win32"
+# Voz (opcional, usada só pelo endpoint /api/voz). O microfone também exige: pip install pyaudio
+SpeechRecognition
